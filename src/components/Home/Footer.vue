@@ -14,10 +14,12 @@
     <footer>
       <ul>
         <li v-for="item in links" :key="item.id">
-          <a :href="item.link">{{ item.title }}</a>
+          <a :href="item.link" target="__blank">{{ item.title }}</a>
         </li>
       </ul>
-      <a href="mailto:egbaidomehjamez@gmail.com">hello@niles.dev</a>
+      <a href="mailto:egbaidomehjamez@gmail.com" target="__blank"
+        >hello@niles.dev</a
+      >
       <p>© 2023 James Egbaidomeh. All rights reserved.</p>
     </footer>
   </section>
