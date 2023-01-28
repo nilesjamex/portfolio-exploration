@@ -272,9 +272,20 @@
         }
         footer {
             @extend %flex-ac-jb;
+            a {
+                font-family: 'Neue Montreal', sans-serif;
+                font-style: italic;
+                font-weight: 500;
+                font-size: Max(1rem, 16px);
+                line-height: Max(1.188rem, 19px);
+                color: $white;
+            }
             ul {
                 @extend %flex-ac;
                 gap: 1rem;
+                a {
+                    font-family: normal;
+                }
                 li {
                     font-family: 'Neue Montreal', sans-serif;
                     font-style: normal;
@@ -283,14 +294,6 @@
                     line-height: Max(1.188rem, 19px);
                     color: $white;
                 }
-            }
-            a {
-                font-family: 'Neue Montreal', sans-serif;
-                font-style: italic;
-                font-weight: 500;
-                font-size: Max(1rem, 16px);
-                line-height: Max(1.188rem, 19px);
-                color: $white;
             }
             p {
                 font-family: 'Neue Montreal', sans-serif;
