@@ -1,0 +1,306 @@
+.home {
+    &__hero {
+        background-color: $bg;
+        height: auto;
+        overflow: hidden;
+        nav {
+            @extend %flex-ac-jb;
+            padding: 1rem 5%;
+            height: 8vh;
+            border-bottom: 1px solid #A0B49C;
+            h3 {
+                font-family: 'Bebas Neue', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: Max(2.5rem, 40px);
+                line-height: 100%;
+                color: $white;
+            }
+            ul {
+                @extend %flex-ac;
+                gap: 1.5rem;
+                li {
+                    font-family: 'Neue Montreal', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: Max(1rem, 16px);
+                    line-height: Max(1.188rem, 19px);
+                    color: $white;
+                    cursor: pointer;
+                    &::after {
+                      transition: all ease-in-out 0.7s;
+                      position: absolute;
+                      width: 0%;
+                      content: "";
+                      left: 0;
+                      bottom: 0;
+                      height: 2px;
+                      background: orange;
+                    }
+                    &:hover {
+                      &::after {
+                        width: 100%;
+                      }
+                    }
+                }
+            }
+        }
+        &__content {
+            @extend %flex-ac-jb;
+            padding: 3rem 5% 0;
+            .text {
+                h4 {
+                    font-family: 'Neue Montreal', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: Max(5rem, 40px);
+                    line-height: Max(6rem, 96px);
+                    color: $text;
+                    margin-bottom: 5rem;
+                }
+                p {
+                    font-family: 'Neue Montreal', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: Max(1.25rem, 20px);
+                    line-height: Max(1.5rem, 24px);
+                    color: $text;
+                    width: Min(485px, 100%);
+                }
+            }
+            img {
+                margin-right: -6rem;
+            }
+        }
+    }
+
+    &__about {
+        padding: 3rem 5% 1.5rem;
+        background-color: $bg;
+        height: auto;
+        overflow: hidden;
+        border-bottom: 1px solid #A0B49C;
+        h4 {
+            font-family: 'Neue Montreal', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: Max(2rem, 24px);
+            line-height: Max(2.5rem, 30px);
+            color: $white;
+        }
+        p {
+            font-family: 'Neue Montreal', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: Max(1.25rem, 20px);
+            line-height: Max(1.5rem, 24px);
+            color: $text;
+            width: Min(1075px, 100%);
+            margin: 1.5rem 0;
+            &.exp {
+                margin: 0 0 3rem
+            }
+        }
+        span {
+            @extend %flex-ac;
+            gap: 0.75rem;
+            font-family: 'Neue Montreal', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: Max(1rem, 16px);
+            line-height: Max(1.188rem, 19px);
+            color: $white;
+            margin-bottom: 3rem;
+        }
+        .stacks {
+            @extend %flex-ac-jb;
+            margin-top: 1.5rem;
+            h6 {
+                font-family: 'Neue Montreal', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: Max(1rem, 16px);
+                line-height: Max(1.188rem, 19px);
+                color: $text;
+                min-width: 194px;
+                max-width: 240px;
+            }
+        }
+        .experience {
+            @extend %flex-ac-jb;
+            gap: 2rem;
+            text-align: center;
+            &>div {
+                h3 {
+                    font-family: 'Neue Montreal', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: Max(1.25rem, 18px);
+                    line-height: 120%;
+                    color: $white;
+                }
+                h6, p {
+                    font-family: 'Neue Montreal', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: Max(0.875rem, 14px);
+                    line-height: Max(1.063rem, 17px);
+                    color: $text;
+                    margin-top: unset;
+                }
+            }
+        }
+    }
+
+    &__work {
+        padding: 4rem 0%;
+        background-color: $bg;
+        height: auto;
+        overflow: hidden;
+        h4 {
+            margin-bottom: 2.5rem;
+        }
+        &__content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.5rem;
+            justify-items: center;
+            &>div {
+                img {
+                    mix-blend-mode: luminosity;
+                    transition: all 0.4s ease-in-out;
+                }
+                p {
+                    font-family: 'Neue Montreal', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: Max(0.875rem, 14px);
+                    line-height: (1.066rem, 17px);
+                    color: $white;
+                    margin-top: 0.25rem;
+                    @extend %flex-ac;
+                    gap: 0.5rem;
+                }
+                &:hover {
+                    animation-name: bounce-6;
+                    animation-timing-function: ease;
+                    animation-timing-function: linear;
+                    animation-duration: 1.25s;
+                    img {
+                        mix-blend-mode: unset;
+                        transition: all 0.4s ease-in-out;
+                    }
+                  }
+            }
+        }
+        @keyframes bounce-6 {
+            0% {
+              transform: scale(1, 1) translateY(0);
+            }
+            10% {
+              transform: scale(1.1, 0.9) translateY(0);
+            }
+            30% {
+              transform: scale(0.9, 1.1) translateY(-100px);
+            }
+            50% {
+              transform: scale(1.05, 0.95) translateY(0);
+            }
+            57% {
+              transform: scale(1, 1) translateY(-7px);
+            }
+            64% {
+              transform: scale(1, 1) translateY(0);
+            }
+            100% {
+              transform: scale(1, 1) translateY(0);
+            }
+          }
+    }
+
+    &__footer {
+        padding: 3rem 5% 1.5rem;
+        background-color: $bg;
+        height: auto;
+        overflow: hidden;
+        .text {
+            width: Min(890px, 100%);
+            text-align: center;
+            margin: 0 auto;
+            h2 {
+                font-family: 'Neue Montreal', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: Max(3.75rem, 24px);
+                line-height: 72px;
+                text-align: center;
+                color: $white;
+            }
+            p {
+                font-family: 'Neue Montreal', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: Max(1rem, 16px);
+                line-height: Max(1.188rem, 19px);
+                text-align: center;
+                color: $white;
+            }
+            button {
+                font-family: 'Neue Montreal', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: Nax(0.875rem, 14px);
+                line-height: Max(1.066rem, 17px);
+                color: $white;
+                background-color: transparent;
+                border: 1px solid $white;
+                border-radius: Max(3.125rem, 50px);
+                height: Max(2.313rem, 37px);
+                width: Max(10.25rem, 164px);
+                margin-top: 1rem;
+            }
+        }
+        .cursive {
+            font-family: 'Luna Bar', cursive;
+            font-style: normal;
+            font-weight: 400;
+            font-size: Max(3.75rem, 24px);
+            line-height: 200%;
+            color: $text;
+            text-align: center;
+            margin: 1rem auto;
+        }
+        footer {
+            @extend %flex-ac-jb;
+            ul {
+                @extend %flex-ac;
+                gap: 1rem;
+                li {
+                    font-family: 'Neue Montreal', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: Max(1rem, 16px);
+                    line-height: Max(1.188rem, 19px);
+                    color: $white;
+                }
+            }
+            a {
+                font-family: 'Neue Montreal', sans-serif;
+                font-style: italic;
+                font-weight: 500;
+                font-size: Max(1rem, 16px);
+                line-height: Max(1.188rem, 19px);
+                color: $white;
+            }
+            p {
+                font-family: 'Neue Montreal', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: Max(1rem, 16px);
+                line-height: Max(1.188rem, 19px);
+                color: $white;
+                margin-top: unset;
+            }
+        }
+    }
+}
