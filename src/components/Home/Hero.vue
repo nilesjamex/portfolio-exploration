@@ -24,7 +24,7 @@
         <h4
           data-aos="fade-up"
           data-aos-duration="500"
-          data-aos-easing="ease-in-back"
+          data-aos-easing="linear"
           data-aos-delay="100"
         >
           It’s empty<br />
@@ -34,7 +34,7 @@
         <p
           data-aos="fade-up"
           data-aos-duration="500"
-          data-aos-easing="ease-in-back"
+          data-aos-easing="linear"
           data-aos-delay="200"
         >
           I am a solution-oriented developer who is dedicated to creating and

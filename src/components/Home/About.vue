@@ -3,7 +3,7 @@
     <h4
       data-aos="fade-up"
       data-aos-duration="500"
-      data-aos-easing="ease-in-back"
+      data-aos-easing="linear"
       data-aos-delay="100"
     >
       About
@@ -11,7 +11,7 @@
     <p
       data-aos="fade-up"
       data-aos-duration="500"
-      data-aos-easing="ease-in-back"
+      data-aos-easing="linear"
       data-aos-delay="200"
     >
       I am a software developer based in Ibadan, Nigeria with a passion for
@@ -25,7 +25,7 @@
     <span
       data-aos="fade-up"
       data-aos-duration="500"
-      data-aos-easing="ease-in-back"
+      data-aos-easing="linear"
       data-aos-delay="300"
     >
       <a
@@ -39,7 +39,7 @@
     <h4
       data-aos="fade-up"
       data-aos-duration="600"
-      data-aos-easing="ease-in-back"
+      data-aos-easing="linear"
       data-aos-delay="100"
     >
       proficiency/stacks
@@ -48,7 +48,7 @@
       <h6
         data-aos="fade-up"
         data-aos-duration="600"
-        data-aos-easing="ease-in-back"
+        data-aos-easing="linear"
         data-aos-delay="150"
       >
         Accessibility Conscious Web development standards Semantic HTML Version
@@ -57,7 +57,7 @@
       <h6
         data-aos="fade-up"
         data-aos-duration="600"
-        data-aos-easing="ease-in-back"
+        data-aos-easing="linear"
         data-aos-delay="200"
       >
         HTML, CSS, JS Vue / React, Next.JS TypeScript, CSS-in-JS CMS Build tools
@@ -66,7 +66,7 @@
       <h6
         data-aos="fade-up"
         data-aos-duration="600"
-        data-aos-easing="ease-in-back"
+        data-aos-easing="linear"
         data-aos-delay="250"
       >
         CSS best practices Advanced SCSS/Sass Scalable and systemized style code
@@ -77,7 +77,7 @@
     <h4
       data-aos="fade-up"
       data-aos-duration="500"
-      data-aos-easing="ease-in-back"
+      data-aos-easing="linear"
       data-aos-delay="0"
     >
       experience
@@ -86,7 +86,7 @@
       class="exp"
       data-aos="fade-up"
       data-aos-duration="500"
-      data-aos-easing="ease-in-back"
+      data-aos-easing="linear"
       data-aos-delay="100"
     >
       i’ve had experience working with a couple of amazing organizations/had
