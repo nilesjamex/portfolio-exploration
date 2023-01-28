@@ -1,5 +1,5 @@
 <template>
-  <section class="home__footer">
+  <section class="home__footer" id="contact">
     <div class="text">
       <h2>open to projects & collaborations</h2>
       <p>

@@ -2,20 +2,41 @@
   <section class="home__hero">
     <nav>
       <h3>NILES</h3>
-      <ul>
-        <li>ABOUT</li>
-        <li>WORKS</li>
-        <li>CONTACT</li>
+      <ul :class="{ active: active }">
+        <li @click="active = !active">
+          <a href="#about">ABOUT</a>
+        </li>
+        <li @click="active = !active">
+          <a href="#works">WORKS</a>
+        </li>
+        <li @click="active = !active">
+          <a href="#contact">CONTACT</a>
+        </li>
       </ul>
+      <div class="toggle" @click="active = !active">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
     </nav>
     <div class="home__hero__content">
       <div class="text">
-        <h4>
+        <h4
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
+        >
           It’s empty<br />
           in here,<br />
           isn’t it?
         </h4>
-        <p>
+        <p
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="200"
+        >
           I am a solution-oriented developer who is dedicated to creating and
           optimizing interactive, user- friendly, and feature-rich web
           applications to solve everyday problems.
@@ -30,6 +51,16 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { onMounted, ref } from "vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
+onMounted(() => {
+  AOS.init();
+});
+const active = ref(false);
+</script>
 
 <style scoped lang="scss">
 @import "./home.scss";

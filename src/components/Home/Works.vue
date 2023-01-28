@@ -1,10 +1,12 @@
 <template>
-  <section class="home__work">
+  <section class="home__work" id="works">
     <h4>selected works.</h4>
     <div class="home__work__content">
       <div class="items" v-for="item in works" :key="item.id">
         <a :href="item.link" target="__blank">
-          <img :src="item.img" alt="" width="240" height="240" />
+          <span>
+            <img :src="item.img" alt="" width="240" height="240" />
+          </span>
           <p>{{ item.name }} <img src="@/assets/arrow.svg" alt="" /></p>
         </a>
       </div>
