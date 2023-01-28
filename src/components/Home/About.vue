@@ -11,6 +11,10 @@
       and innovative ways to solve problems.
     </p>
     <span>
+      <a
+        href="https://docs.google.com/document/d/1Si2w1XLd2gUo0zMIc-HIehSjFU-IdXY6DHfCcz4f0_U/edit?usp=share_link"
+        target="__blank"
+      ></a>
       Link to my resume
       <img src="@/assets/arrow.svg" alt="" />
     </span>
