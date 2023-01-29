@@ -26,6 +26,7 @@
           data-aos-duration="500"
           data-aos-easing="linear"
           data-aos-delay="100"
+          class="bold"
         >
           It’s empty<br />
           in here,<br />
