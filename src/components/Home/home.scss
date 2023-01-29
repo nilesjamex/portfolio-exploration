@@ -196,6 +196,11 @@
             @include flex(space-between, flex-start, row nowrap);
             gap: 2rem;
             text-align: center;
+            flex-wrap: wrap;
+            @include respondMax("mobile2x") {
+                flex-direction: column;
+                align-items: center;
+            }
             &>div {
                 h3 {
                     font-family: 'Neue Montreal', sans-serif;
@@ -385,9 +390,12 @@
                 font-style: normal;
                 font-weight: 700;
                 font-size: Max(3.75rem, 24px);
-                line-height: 72px;
+                line-height: 120%;
                 text-align: center;
                 color: $white;
+                @include respondMax("mobile3x") {
+                    font-size: Max(2.5rem, 24px);
+                }
             }
             p {
                 font-family: 'Neue Montreal', sans-serif;
