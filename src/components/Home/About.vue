@@ -41,6 +41,7 @@
       data-aos-duration="600"
       data-aos-easing="linear"
       data-aos-delay="100"
+      class="proficiency"
     >
       proficiency/stacks
     </h4>
@@ -49,7 +50,7 @@
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
-        data-aos-delay="150"
+        data-aos-delay="170"
       >
         Accessibility Conscious Web development standards Semantic HTML Version
         control (Git) Best practices
@@ -58,7 +59,7 @@
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
-        data-aos-delay="200"
+        data-aos-delay="220"
       >
         HTML, CSS, JS Vue / React, Next.JS TypeScript, CSS-in-JS CMS Build tools
         (Webpack, Babel, Vite)
@@ -67,7 +68,7 @@
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
-        data-aos-delay="250"
+        data-aos-delay="270"
       >
         CSS best practices Advanced SCSS/Sass Scalable and systemized style code
         BEM & other CSS methodologies ES6 Javascript

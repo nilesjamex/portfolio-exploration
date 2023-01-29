@@ -94,6 +94,7 @@
         &__content {
             @extend %flex-ac-jb;
             padding: 3rem 5% 0;
+            gap: 2rem;
             @include respondMax("desktop") {
                 flex-direction: column;
                 text-align: center;
@@ -145,6 +146,9 @@
             font-size: Max(2rem, 24px);
             line-height: Max(2.5rem, 30px);
             color: $white;
+            &.proficiency {
+                margin-top: 4rem;
+            }
         }
         p {
             font-family: 'Neue Montreal', sans-serif;
@@ -377,7 +381,7 @@
             text-align: center;
             margin: 0 auto;
             h2 {
-                font-family: 'Neue Montreal', sans-serif;
+                font-family: 'Neue Montreal Bo', sans-serif;
                 font-style: normal;
                 font-weight: 700;
                 font-size: Max(3.75rem, 24px);
