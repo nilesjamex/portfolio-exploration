@@ -43,11 +43,14 @@
         </p>
       </div>
       <img
-        src="@/assets/hero.png"
+        src="@/assets/geek.gif"
         alt="A hero image"
         width="853"
         height="853"
       />
+      <!-- <video width="853" height="853">
+        <source src="@/assets/geek.gif" type="video/gif" />
+      </video> -->
     </div>
   </section>
 </template>

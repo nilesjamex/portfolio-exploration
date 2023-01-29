@@ -301,6 +301,35 @@
                   }
             }
         }
+        a {
+            &.button {
+                margin: 0 auto;
+            @extend %center;
+            }
+        }
+        button {
+            font-family: 'Neue Montreal', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: Nax(0.875rem, 14px);
+            line-height: Max(1.066rem, 17px);
+            color: $white;
+            background-color: transparent;
+            border: 1px solid $white;
+            border-radius: Max(3.125rem, 50px);
+            height: Max(2.313rem, 37px);
+            width: auto;
+            margin-top: 1rem;
+            transition: all 0.6s ease-in-out;
+            margin: 0 auto;
+            padding: 0 10px;
+            &:hover {
+                background-color: $white;
+                color: $black;
+                transition: all 0.6s ease-in-out;
+                font-weight: 500;
+            }
+        }
         // @keyframes bounce-6 {
         //     0% {
         //       transform: scale(1, 1) translateY(0);
@@ -366,6 +395,13 @@
                 height: Max(2.313rem, 37px);
                 width: Max(10.25rem, 164px);
                 margin-top: 1rem;
+                transition: all 0.6s ease-in-out;
+                &:hover {
+                    background-color: $white;
+                    color: $black;
+                    transition: all 0.6s ease-in-out;
+                    font-weight: 500;
+                }
             }
         }
         .cursive {
@@ -376,7 +412,7 @@
             line-height: 200%;
             color: $text;
             text-align: center;
-            margin: 1rem auto;
+            margin: 3rem auto;
         }
         footer {
             @extend %flex-ac-jb;

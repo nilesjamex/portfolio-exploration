@@ -11,6 +11,9 @@
         </a>
       </div>
     </div>
+    <a href="http://github.com/nilesjamex" target="__blank" class="button">
+      <button>SEE MORE OF MY PROJECTS ON GITHUB</button>
+    </a>
   </section>
 </template>
 
