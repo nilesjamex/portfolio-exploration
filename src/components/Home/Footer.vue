@@ -2,7 +2,7 @@
   <section class="home__footer" id="contact">
     <div class="text">
       <h2>open to projects & collaborations</h2>
-      <p>
+      <p class="mail">
         contact forms ain’t my thing, just shoot a mail - i’ll be replying your
         mail as fast as the Expansion of the Universe
       </p>

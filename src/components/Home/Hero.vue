@@ -46,8 +46,8 @@
       <img
         src="@/assets/geek.gif"
         alt="A hero image"
-        width="853"
-        height="853"
+        width="957"
+        height="753"
       />
       <!-- <video width="853" height="853">
         <source src="@/assets/geek.gif" type="video/gif" />

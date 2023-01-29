@@ -63,6 +63,18 @@
                     &.active {
                       transform: translateX(0%);
                     }
+                    li {
+                        font-family: 'Neue Montreal Bo', sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: Max(3.75rem, 60px);
+                        line-height: 120%;
+                        color: $white;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        text-align: left;
+                        width: 100%;
+                    }
                   }
             }
             .toggle {
@@ -88,7 +100,7 @@
             }
             .text {
                 .bold {
-                    font-family: 'Neue Montreal', sans-serif;
+                    font-family: 'Neue Montreal Bo', sans-serif;
                     font-style: normal;
                     font-weight: 700;
                     font-size: Max(5rem, 40px);
@@ -121,7 +133,7 @@
     }
 
     &__about {
-        padding: 3rem 5% 1.5rem;
+        padding: 5rem 5%;
         background-color: $bg;
         height: auto;
         overflow: hidden;
@@ -203,7 +215,7 @@
     }
 
     &__work {
-        padding: 4rem 0%;
+        padding: 5rem 0%;
         background-color: $bg;
         height: auto;
         overflow: hidden;
@@ -356,7 +368,7 @@
     }
 
     &__footer {
-        padding: 3rem 5% 1.5rem;
+        padding: 5rem 5%;
         background-color: $bg;
         height: auto;
         overflow: hidden;
@@ -381,6 +393,9 @@
                 line-height: Max(1.188rem, 19px);
                 text-align: center;
                 color: $white;
+                &.mail {
+                    margin: 1.5rem 0 2.5rem 0;
+                }
             }
             button {
                 font-family: 'Neue Montreal', sans-serif;
