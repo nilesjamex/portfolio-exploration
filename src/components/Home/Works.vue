@@ -32,12 +32,12 @@ const works = ref([
     name: "Panthone",
     link: "https://panthone.vercel.app/",
   },
-  {
-    id: 3,
-    img: "https://res.cloudinary.com/dx9pt4ggx/image/upload/v1674909373/portfolio/floki_ze0awn.png",
-    name: "WTF Foki",
-    link: "https://www.wtffloki.com/",
-  },
+  // {
+  //   id: 3,
+  //   img: "https://res.cloudinary.com/dx9pt4ggx/image/upload/v1674909373/portfolio/floki_ze0awn.png",
+  //   name: "WTF Foki",
+  //   link: "https://www.wtffloki.com/",
+  // },
   {
     id: 4,
     img: "https://res.cloudinary.com/dx9pt4ggx/image/upload/v1672305605/Lendsqr/lendsqr-logo_pn2jeq.png",

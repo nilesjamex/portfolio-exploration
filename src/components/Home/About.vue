@@ -29,7 +29,7 @@
       data-aos-delay="300"
     >
       <a
-        href="https://docs.google.com/document/d/1Si2w1XLd2gUo0zMIc-HIehSjFU-IdXY6DHfCcz4f0_U/edit?usp=share_link"
+        href="https://docs.google.com/document/d/1UHfsxEg9XMxf5CDq9MLIyFVBULRTE4DT3wo_8ODuqu4/edit"
         target="__blank"
       >
         Link to my resume
@@ -113,12 +113,6 @@ onMounted(() => {
 });
 const exp = ref([
   {
-    id: 1,
-    company: "Luxtech Co",
-    role: "Frontend Developer, Intern",
-    year: "2021",
-  },
-  {
     id: 2,
     company: "AyaTrades",
     role: "Frontend Developer, Intern",
@@ -129,6 +123,12 @@ const exp = ref([
     company: "Stunning Saas",
     role: "Frontend Developer",
     year: "2022",
+  },
+  {
+    id: 4,
+    company: "SellersMart",
+    role: "Frontend Developer",
+    year: "Present",
   },
 ]);
 </script>
